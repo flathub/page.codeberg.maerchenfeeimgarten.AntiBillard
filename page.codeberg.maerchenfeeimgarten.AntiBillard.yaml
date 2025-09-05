@@ -20,14 +20,14 @@ modules:
       - install -Dm 0644 page.codeberg.maerchenfeeimgarten.AntiBillard.metainfo.xml /app/share/metainfo/page.codeberg.maerchenfeeimgarten.AntiBillard.metainfo.xml
     sources:
       - type: file
-        sha256: 711f4949dd3114b9404ec8c571860d3f89d12decf11826d7c6538561101eba20
-        url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/releases/download/V0.0.8/AntiBillard_Godot.pck
+        sha256: f8ac9ee3838d10f88161c3cac09d606d949cf45b771791afbea55c0a229a2a11
+        url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/releases/download/v0.0.9/AntiBillard_Godot.pck
       - type: file
         url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/raw/commit/f99ff15cbb972083f8605c9a7dc3577276261883/page.codeberg.maerchenfeeimgarten.AntiBillard.desktop
         sha256: b74533e03ffb6b28dfc01b209d869f9994c3e77737f5d5128fd8fa4b1eff9d4e
       - type: file
-        url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/raw/commit/f99ff15cbb972083f8605c9a7dc3577276261883/Images/Splash_Square.svg
-        sha256: eb14f20c61914ec5831c8400880b24e29f2d2237d944e2ce2126c81086c1ae1a
+        url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/raw/commit/0f747b0a899f782b8c4fabb79f12d60c8f94c3fb/Images/Splash_Square.svg
+        sha256: 9d719c6f2b000b60a3e09cdab0f7e48dd84e6728c8e7cdc64ee81533cb718eb1
       - type: file
-        url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/raw/commit/bc720fc3d7fd4875ea0750fa568d593aecf1e93f/page.codeberg.maerchenfeeimgarten.AntiBillard.metainfo.xml
-        sha256: a100f163fcc7767ef15688b160dee7cff0479f91ca0a7ccdbf28b0979775195d
+        url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/raw/commit/97b8a03cb082f3277bfb743a0f0399eab0afc356/page.codeberg.maerchenfeeimgarten.AntiBillard.metainfo.xml
+        sha256: 419b377c8e993c440ec0187a7e52ec4f918f295693bb590287164386787e82f4
