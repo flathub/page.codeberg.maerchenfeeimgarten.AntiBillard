@@ -1,9 +1,9 @@
 id: page.codeberg.maerchenfeeimgarten.AntiBillard
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 base: org.godotengine.godot.BaseApp
-base-version: '4.4'
+base-version: '4.5'
 command: godot-runner
 finish-args:
   - --share=ipc
@@ -20,8 +20,8 @@ modules:
       - install -Dm 0644 page.codeberg.maerchenfeeimgarten.AntiBillard.metainfo.xml /app/share/metainfo/page.codeberg.maerchenfeeimgarten.AntiBillard.metainfo.xml
     sources:
       - type: file
-        sha256: f8ac9ee3838d10f88161c3cac09d606d949cf45b771791afbea55c0a229a2a11
-        url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/releases/download/v0.0.9/AntiBillard_Godot.pck
+        sha256: 858a1d90f926e40b2b1b4b8faa85f0b78575dc683b1e923a3e0d283125d16634
+        url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/releases/download/v0.1.0/AntiBillard_Godot.pck
       - type: file
         url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/raw/commit/f99ff15cbb972083f8605c9a7dc3577276261883/page.codeberg.maerchenfeeimgarten.AntiBillard.desktop
         sha256: b74533e03ffb6b28dfc01b209d869f9994c3e77737f5d5128fd8fa4b1eff9d4e
@@ -29,5 +29,5 @@ modules:
         url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/raw/commit/0f747b0a899f782b8c4fabb79f12d60c8f94c3fb/Images/Splash_Square.svg
         sha256: 9d719c6f2b000b60a3e09cdab0f7e48dd84e6728c8e7cdc64ee81533cb718eb1
       - type: file
-        url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/raw/commit/97b8a03cb082f3277bfb743a0f0399eab0afc356/page.codeberg.maerchenfeeimgarten.AntiBillard.metainfo.xml
-        sha256: 419b377c8e993c440ec0187a7e52ec4f918f295693bb590287164386787e82f4
+        url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/raw/commit/a70c14be97ec8a3117e7e45460ecb3546f1191f0/page.codeberg.maerchenfeeimgarten.AntiBillard.metainfo.xml
+        sha256: fb73353e2712368cf3dec434191a00de46d712c7dbd8fe35e76f98cc4f760b64
