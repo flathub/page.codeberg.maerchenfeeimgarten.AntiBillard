@@ -3,7 +3,7 @@ runtime: org.freedesktop.Platform
 runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 base: org.godotengine.godot.BaseApp
-base-version: '4.5'
+base-version: '4.6'
 command: godot-runner
 finish-args:
   - --share=ipc
@@ -14,14 +14,14 @@ modules:
   - name: AntiBillard
     buildsystem: simple
     build-commands:
-      - install -D  AntiBillard_Godot.pck /app/bin/godot-runner.pck
+      - install -D  AntiBillard_Linux.arm64.pck /app/bin/godot-runner.pck
       - install -Dm 0644 page.codeberg.maerchenfeeimgarten.AntiBillard.desktop /app/share/applications/page.codeberg.maerchenfeeimgarten.AntiBillard.desktop
       - install -Dm 0644 Splash_Square.svg /app/share/icons/hicolor/scalable/apps/page.codeberg.maerchenfeeimgarten.AntiBillard.svg
       - install -Dm 0644 page.codeberg.maerchenfeeimgarten.AntiBillard.metainfo.xml /app/share/metainfo/page.codeberg.maerchenfeeimgarten.AntiBillard.metainfo.xml
     sources:
       - type: file
-        sha256: 858a1d90f926e40b2b1b4b8faa85f0b78575dc683b1e923a3e0d283125d16634
-        url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/releases/download/v0.1.0/AntiBillard_Godot.pck
+        sha256: 21c2c2ed2719459582d31552028af19aac7ee03493eb7699b341ea694f10bad1
+        url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/releases/download/v0.1.1/AntiBillard_Linux.arm64.pck
       - type: file
         url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/raw/commit/f99ff15cbb972083f8605c9a7dc3577276261883/page.codeberg.maerchenfeeimgarten.AntiBillard.desktop
         sha256: b74533e03ffb6b28dfc01b209d869f9994c3e77737f5d5128fd8fa4b1eff9d4e
@@ -29,5 +29,5 @@ modules:
         url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/raw/commit/0f747b0a899f782b8c4fabb79f12d60c8f94c3fb/Images/Splash_Square.svg
         sha256: 9d719c6f2b000b60a3e09cdab0f7e48dd84e6728c8e7cdc64ee81533cb718eb1
       - type: file
-        url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/raw/commit/a70c14be97ec8a3117e7e45460ecb3546f1191f0/page.codeberg.maerchenfeeimgarten.AntiBillard.metainfo.xml
-        sha256: fb73353e2712368cf3dec434191a00de46d712c7dbd8fe35e76f98cc4f760b64
+        url: https://codeberg.org/MaerchenfeeimGarten/AntiBillard/raw/commit/efdb7f05b3b830df67aae8d30bef35ab633aa38a/page.codeberg.maerchenfeeimgarten.AntiBillard.metainfo.xml
+        sha256: 8a3e12dd8e58882eceefbf821b4c6abe3e76305b76a4d121c9fec071339960df
